@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treva</title>
+</head>
+
+<body>
+
+    <!-- header start -->
+    <header>
+        <div class="wraper">
+            <div class="header__inner wraper__margin">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="">
+                </div>
+
+                <!-- nav start -->
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li><a class="nav__item-btn1" href="#">Sign in</a></li>
+                        <li><a class="nav__item-btn2" href="#">Sign up</a></li>
+                    </ul>
+                </nav>
+                <!-- nav end -->
+
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero start -->
+    <main class="hero">
+        <div class="wraper">
+            <div class="hero__inner wraper__margin">
+                <div class="hero__text">
+                    <h1 class="hero__text-large">Find Your Dream Job Here</h1>
+                    <p class="hero__text-small">Filium morte multavit si sine dubio praeclara sunt, explicabo nemo enim
+                        ad minima. Probabo, inquit, modo ista sis aequitate, quam ob rem aperiam eaque gaudere ut.</p>
+                </div>
+                <div class="hero__btns">
+                    <div class="hero__btn-item1"><a class="hero__btn1" href="#">Hire</a></div>
+                    <div class="hero__btn-item2"><a class="hero__btn2" href="#">Work</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__bck"> </div>
+    </main>
+    <!-- hero end -->
+
+    <!-- section start -->
+    <section class="section">
+        <div class="wraper">
+            <div class="section__inner">
+                <h1 class="section__inner_text-large">Hire</h1>
+
+                <!-- tabs start -->
+                <div class="tabs">
+
+                    <div class="tab">
+                        <input type="radio" id="tab1" name="tab-group" checked>
+                        <label for="tab1" class="tab__label tab__icon-01">
+                            <svg class="tab__icon">
+
+                                <path class="tab__icon-01 tab__icon-opacity" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M23.5 47C36.4787 47 47 36.4787 47 23.5C47 10.5213 36.4787 0 23.5 0C10.5213 0 0 10.5213 0 23.5C0 36.4787 10.5213 47 23.5 47Z" />
+
+                                <path class="tab__icon-01 tab__icon-symbol" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M31.1213 19.1622C31.4625 18.8209 31.4625 18.2697 31.1213 17.9284L29.0738 15.8809C28.9103 15.7171 28.6883 15.625 28.4569 15.625C28.2254 15.625 28.0035 15.7171 27.84 15.8809L26.2388 17.4822L29.52 20.7634L31.1213 19.1622ZM15.625 28.2797V30.9397C15.625 31.1847 15.8175 31.3772 16.0625 31.3772H18.7225C18.8363 31.3772 18.95 31.3334 19.0287 31.2459L28.5837 21.6997L25.3025 18.4184L15.7562 27.9647C15.6687 28.0522 15.625 28.1572 15.625 28.2797ZM26.1075 21.6975L25.3025 20.8925L17.375 28.82V29.625H18.18L26.1075 21.6975Z" />
+                            </svg>
+                            <div class="tab__label-text tab__icon-01">Post</div>
+                        </label>
+                    </div>
+
+                    <div class="tab">
+                        <input type="radio" id="tab2" name="tab-group">
+                        <label for="tab2" class="tab__label tab__icon-02">
+                            <svg class="tab__icon">
+
+                                <path class="tab__icon-02 tab__icon-opacity" opacity="0.203892" fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M23.5 47C36.4787 47 47 36.4787 47 23.5C47 10.5213 36.4787 0 23.5 0C10.5213 0 0 10.5213 0 23.5C0 36.4787 10.5213 47 23.5 47Z" />
+
+                                <path class="tab__icon-02 tab__icon-symbol" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M30.6989 19.5728L23.7566 26.515L21.3114 24.0768C21.1801 23.9453 21.0019 23.8713 20.816 23.8713C20.6302 23.8713 20.4519 23.9453 20.3207 24.0768C20.0466 24.3509 20.0466 24.7935 20.3207 25.0676L23.2578 28.0047C23.5318 28.2787 23.9745 28.2787 24.2485 28.0047L31.6896 20.5706C31.9637 20.2966 31.9637 19.8539 31.6896 19.5798H31.6826C31.4156 19.2988 30.9729 19.2988 30.6989 19.5728ZM27.7196 19.5798C27.5883 19.4483 27.4101 19.3743 27.2242 19.3743C27.0384 19.3743 26.8602 19.4483 26.7289 19.5798L22.7659 23.5428L23.7566 24.5336L27.7196 20.5636C27.9866 20.2966 27.9866 19.8469 27.7196 19.5798ZM19.2878 28.0117L16.3507 25.0746C16.0766 24.8006 16.0766 24.3509 16.3507 24.0768C16.4819 23.9453 16.6602 23.8713 16.846 23.8713C17.0319 23.8713 17.2101 23.9453 17.3414 24.0768L20.7704 27.5198L20.2785 28.0117C20.0045 28.2857 19.5618 28.2857 19.2878 28.0117Z" />
+                            </svg>
+                            <div class="tab__label-text tab__icon-02">Applied</div>
+                        </label>
+                    </div>
+
+                    <div class="tab">
+                        <input type="radio" id="tab3" name="tab-group">
+                        <label for="tab3" class="tab__label tab__icon-03">
+                            <svg class="tab__icon">
+                                <path class="tab__icon-03 tab__icon-opacity" opacity="0.203892" fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M23.5 47C36.4787 47 47 36.4787 47 23.5C47 10.5213 36.4787 0 23.5 0C10.5213 0 0 10.5213 0 23.5C0 36.4787 10.5213 47 23.5 47Z" />
+                                <path class="tab__icon-03 tab__icon-symbol" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M25.2064 21.663C25.2064 23.1829 23.9701 24.4192 22.4502 24.4192C20.9303 24.4192 19.6939 23.1829 19.6939 21.663C19.6939 20.1431 20.9303 18.9067 22.4502 18.9067C23.9701 18.9067 25.2064 20.1431 25.2064 21.663ZM23.6314 21.663C23.6314 21.0094 23.1038 20.4817 22.4502 20.4817C21.7966 20.4817 21.2689 21.0094 21.2689 21.663C21.2689 22.3166 21.7966 22.8442 22.4502 22.8442C23.1038 22.8442 23.6314 22.3166 23.6314 21.663ZM22.4502 25.7974C20.6074 25.7974 16.9377 26.7187 16.9377 28.5536V29.1442C16.9377 29.5774 17.2921 29.9317 17.7252 29.9317H27.1752C27.6083 29.9317 27.9627 29.5774 27.9627 29.1442V28.5536C27.9627 26.7187 24.2929 25.7974 22.4502 25.7974ZM22.4502 27.3724C21.0406 27.3724 19.4419 27.9 18.7804 28.3567H26.1199C25.4584 27.9 23.8598 27.3724 22.4502 27.3724ZM27.9942 25.8446C28.9077 26.5061 29.5377 27.3881 29.5377 28.5536V29.9317H31.9002C32.3333 29.9317 32.6877 29.5774 32.6877 29.1442V28.5536C32.6877 26.9629 29.9314 26.0572 27.9942 25.8446ZM29.9314 21.663C29.9314 23.1829 28.6951 24.4192 27.1752 24.4192C26.7499 24.4192 26.3562 24.3169 25.9939 24.1436C26.4901 23.4427 26.7814 22.5844 26.7814 21.663C26.7814 20.7416 26.4901 19.8832 25.9939 19.1824C26.3562 19.0091 26.7499 18.9067 27.1752 18.9067C28.6951 18.9067 29.9314 20.1431 29.9314 21.663Z" />
+                            </svg>
+                            <div class="tab__label-text tab__icon-03">Assigned</div>
+                        </label>
+                    </div>
+                </div>
+                <!-- tabs end -->
+
+                <div class="section__block wraper__margin">
+
+                    <div class="section__block-info">
+                        <img class="section__block-bck" src="Images/block01.png" alt="">
+
+                        <div class="section__block-text">
+                            <h3 class="section__block_text-large">The Amazing Hubble</h3>
+                            <p class="section__block_text-small">Filium morte multavit si sine dubio praeclara sunt,
+                                explicabo nemo enim ad minima. Probabo, inquit, modo ista sis aequitate, quam ob rem
+                                aperiam eaque gaudere ut. t vero eos et caritatem, quae ab eo ortum, tam crudelis
+                                fuisse, nihil. Et quidem rerum necessitatibus saepe eveniet</p>
+                        </div>
+                    </div>
+
+                    <div class="section__block-img">
+                        <img src="Images/amHubble.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section end -->
+
+</body>
+
+</html>
