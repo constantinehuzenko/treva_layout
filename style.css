@@ -367,9 +367,10 @@ h3 {
         display: flex;
         width: 100%;
         left: 0;
+        top: -50px;
     }
     .section__block-img>img {
-        width: 100%;
+        width: 150%;
     }
 }
 
@@ -402,8 +403,12 @@ h3 {
         margin-left: 0;
     }
     /* section */
+    .section__block {
+        margin-top: 50px;
+    }
     .section__block-bck {
         margin: 0px -50px;
+        filter: drop-shadow(0px 20px 30px rgba(119, 151, 254, 0.5));
     }
     .section__block-text {
         padding: 20px 10px 0px 10px;
