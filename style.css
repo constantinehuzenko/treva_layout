@@ -483,15 +483,15 @@ input {
 }
 
 .instagram::before {
-  content: url(/Images/inst.svg);
+  content: url(Images/inst.svg);
   margin: 0 10px;
 }
 .twitter::before {
-  content: url(/Images/twitter.svg);
+  content: url(Images/twitter.svg);
   margin: 0 10px;
 }
 .facebook::before {
-  content: url(/Images/face.svg);
+  content: url(Images/face.svg);
   margin: 0 13px;
 }
 
